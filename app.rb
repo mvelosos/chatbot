@@ -10,8 +10,8 @@ Dir["./app/services/**/*.rb"].each {|file| require file }
 
 class App < Sinatra::Base
 
-    get '/sinatra' do
-      'Hello world! Mateus'
+    get '/' do
+      'Hello world!'
     end
 
     post '/webhook' do
