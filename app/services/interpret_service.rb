@@ -10,6 +10,8 @@ class InterpretService
         FaqModule::RemoveService.new(params).call()
       when "help"
         HelpService.call()
+      when "list_language"
+        ListLanguageService.call()
       else
         "Não compreendi o seu desejo"
       end

@@ -4,6 +4,8 @@ class HelpService
       response  = "*Meus comandos* \n\n"
       response += "help\n"
       response += "`Lista de comandos que eu conheço`\n\n"
+      response += "Linguas\n"
+      response += "`Lista as linguas suportadas para tradução`\n\n"
       response += "Adicione ao Faq\n"
       response += "`Adiciona uma nova questão ao Faq`\n\n"
       response += "Remova ID\n"
