@@ -1,3 +1,6 @@
+require 'rest-client'
+require 'json'
+
 class ListLanguageService
 
     def self.call
