@@ -12,7 +12,7 @@ class InterpretService
         HelpService.call()
       when "list_language"
         ListLanguageService.call()
-      when "checklist"
+      when "list_checklist"
         ChecklistModule::ListService.call()
       else
         "Não compreendi o seu desejo"
