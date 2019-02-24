@@ -11,7 +11,6 @@ module ChecklistModule
             if !l.done?
               response += "#{l.id} - #{l.description}\n"
             end
-            response += "\n\n"
           end
         else
           'Para adicionar um item digite: To Do'
