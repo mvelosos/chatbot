@@ -8,7 +8,7 @@ module ChecklistModule
 
                 response = "--- Checklist ---\n\n"
                 list.each do |l|
-                    unless l.done?
+                    if !l.done
                         response += "#{l.description}\n"
                     end
                 end
