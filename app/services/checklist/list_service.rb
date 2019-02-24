@@ -4,7 +4,10 @@ module ChecklistModule
 
       def self.call
         if Checklist.any?
-          'Tem coisa'
+          list = Checklist.all
+          list.each do |l|
+            l.description
+          end
         else
           'Para adicionar um item digite: To Do'
         end
