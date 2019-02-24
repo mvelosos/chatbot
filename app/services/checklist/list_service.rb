@@ -11,6 +11,7 @@ module ChecklistModule
             if !l.done?
               response += "#{l.description}"
             end
+            response
           end
         else
           'Para adicionar um item digite: To Do'
