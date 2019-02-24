@@ -6,7 +6,7 @@ module ChecklistModule
         if Checklist.any?
           list = Checklist.all
 
-          response = "       --- Checklist ---\n\n"
+          response = "--- Checklist ---\n\n"
           list.each do |l|
             if !l.done?
               response += "#{l.description}\n"
