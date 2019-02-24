@@ -4,14 +4,15 @@ module ChecklistModule
 
       def self.call
         if Checklist.any?
+          return 'oi'
           list = Checklist.all
 
           response = "--- Checklist ---\n\n"
-          list.each do |l|
-            if !l.done?
-              response += "#{l.description}\n"
-            end
-          end
+          # list.each do |l|
+          #   if !l.done?
+          #     response += "#{l.description}\n"
+          #   end
+          # end
         else
           'Para adicionar um item digite: To Do'
         end
