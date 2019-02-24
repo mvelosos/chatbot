@@ -2,7 +2,7 @@ module ChecklistModule
 
     class ListService
 
-      def call
+      def self.call
         if Checklist.any?
           'Tem coisa'
         else
