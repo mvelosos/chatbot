@@ -1,3 +1,3 @@
 
-Checklist.create('Ir comer um hamburguer', true)
-Checklist.create('Ir pra casa de mozão', false)
+Checklist.create(description: 'Ir comer um hamburguer', done: true)
+Checklist.create(description: 'Ir pra casa de mozão', done: false)
