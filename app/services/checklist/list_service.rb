@@ -6,13 +6,13 @@ module ChecklistModule
         if Checklist.any?
           list = Checklist.all
 
-          response = "--- Checklist ---\n\n"
+          response = "       --- Checklist ---\n\n"
           list.each do |l|
             if !l.done?
-              response += "#{l.description}\n"
+              response += "#{l.id} - #{l.description}\n"
             end
+            response += "\n\n"
           end
-          response += "\n\n"
         else
           'Para adicionar um item digite: To Do'
         end
