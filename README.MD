@@ -1,2 +1,2 @@
 # Chatbot
-## A chatbot made with Sinatra and integrated with DialogFlow
+## A chatbot to faq and translations made with Sinatra and integrated with DialogFlow
